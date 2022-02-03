@@ -1,5 +1,5 @@
 body {
-    font-family: 'OpenSans', Helvetica, sans-serif;
+    font-family: 'Open Sans', Helvetica, sans-serif;
     color: #FFFFFF;
     font-size: 14px;
     line-height: 1.42;
@@ -154,15 +154,14 @@ left: 0;
     margin-bottom: 127px;
 }
 
+.hot-tours__title-box {
+    margin-bottom: 51px; 
+}
+
 .hot-tours__title {
     font-size: 36px;
     font-weight: bold;
-    margin-bottom: 51px;
     margin-right: 12px;
-}
-
-.hot-tours__icon {
-    margin-bottom: 50px;
 }
 
 .hot-tours__title, .hot-tours__icon {

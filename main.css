@@ -1,9 +1,10 @@
 body {
-    font-family: OpenSans, Helvetica, sans-serif;
+    font-family: 'OpenSans', Helvetica, sans-serif;
     color: #FFFFFF;
     font-size: 14px;
     line-height: 1.42;
     background: #001821;
+    margin: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -199,12 +200,15 @@ left: 0;
     margin-bottom: 23px;
 }
 
+.country__features {
+    margin-bottom: 25px;
+}
+
 .country__feature {
     position: relative;
     display: inline-block;
     vertical-align: top;
     margin-right: 32px;
-    margin-bottom: 25px;
 }
 
 .country__feature:last-child {
@@ -354,7 +358,7 @@ left: 0;
 }
 
 .about__desc {
-    background: url(img/mountains.png);
+    background: url(img/mountains.png) center center / cover no-repeat;
     padding: 70px 209px 112px 80px; 
     display:inline-block;
     vertical-align: top;

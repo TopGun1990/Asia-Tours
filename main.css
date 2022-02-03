@@ -113,6 +113,10 @@ left: 0;
     margin-top: -7px;
 }
 
+.hero__content {
+    margin-bottom: 246px;
+}
+
 .hero__text-section {
     width: 520px;
 }
@@ -152,15 +156,17 @@ left: 0;
 .hot-tours__title {
     font-size: 36px;
     font-weight: bold;
-    margin-top: 246px;
     margin-bottom: 51px;
+    margin-right: 12px;
 }
 
 .hot-tours__icon {
-    position: relative;
-    top: -91px;
-    right: -273px;
-    margin-right: 12px;
+    margin-bottom: 50px;
+}
+
+.hot-tours__title, .hot-tours__icon {
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .hot-tours__item-country {
@@ -170,7 +176,6 @@ left: 0;
     border-radius: 4px;
     display: inline-block;
     margin-right: 23px;
-    margin-top: -38px;
     width: 362px;
 }
 
@@ -180,39 +185,38 @@ left: 0;
 
 .country__cover {
     min-height: 144px;
-    margin-bottom: 33px;
+    margin-bottom: 0px;
 }
 
 .country__content {
-    padding: 0px 20px 30px 20px;
+    padding: 30px 20px 30px 20px;
     color: #000000;
 }
 
 .country__name {
     font-size: 24px;
     font-weight: bold;
-    margin-top: 33px;
-    margin-bottom: 0px;
+    margin-bottom: 23px;
 }
 
 .country__feature {
     position: relative;
     display: inline-block;
     vertical-align: top;
-    left: 39px;
-    width: 90px;
-    margin-right: 54px;
-    margin-top: -13px;
+    margin-right: 32px;
+    margin-bottom: 25px;
 }
 
 .country__feature:last-child {
     margin-right: 0;
 }
 
+.country__feature-pic {
+    margin-right: 10px;
+}
+
 .country__feature-img {
     position: relative;
-    left: -39px;
-    bottom: -25px;
 }
 
 .country__feature-text {
@@ -220,11 +224,15 @@ left: 0;
     color: #666666;
 }
 
+.country__feature-text, .country__feature-pic {
+    display: inline-block;
+    vertical-align: middle;
+}
+
 .country__text {
     font-size: 14px;
     color: #303030;
     margin-bottom: 25px;
-    margin-top: 24px;
 }
 
 .country__watch-btn {
@@ -279,6 +287,7 @@ left: 0;
 }
 
 .promo__date {
+    display: block;
     font-size: 14px;
     margin-bottom: 12px;
 }
@@ -346,7 +355,7 @@ left: 0;
 
 .about__desc {
     background: url(img/mountains.png);
-    padding: 70px 80px;
+    padding: 70px 209px 112px 80px; 
     display:inline-block;
     vertical-align: top;
     width: 785px;
@@ -367,8 +376,6 @@ left: 0;
 .about__desc-text {
     color: black;
     font-size: 16px;
-    margin-bottom: 42px;
-    margin-right: 129px;
 }    
 
 .about__desc-text p {

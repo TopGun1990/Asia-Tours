@@ -345,10 +345,6 @@ body, html {
     align-items: center;
 }
 
-.paginator--theme--red {
-    margin-bottom: 70px;
-}
-
 .paginator--theme--red .paginator__item--active .paginator__link {
     color: #fff;
     background: #F5170E;
@@ -583,7 +579,8 @@ body, html {
 }
 
 .page-content {
-    padding: 100px 0 0 0;
+    padding-top: 98px;
+    padding-bottom: 90px;
     background: #FFF;
     color: #303030;
 }
@@ -679,14 +676,19 @@ body, html {
 .partners {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .partners__item {
     margin-left: 20px;
 }
 
-.partners__item:nth-child(4n + 4) {
+.partners__item:nth-child(4n + 1) {
     margin-left: 0;
+}
+
+.partners__item:nth-child(4n + 4) {
+    justify-content: flex-end;
 }
 
 .parnters__link {

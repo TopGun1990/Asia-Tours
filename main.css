@@ -71,7 +71,7 @@ body, html {
 
 .header__services {
     padding-top: 40px;
-    margin-bottom: 27px;
+    margin-bottom: 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -96,9 +96,13 @@ body, html {
     font-size: 11px;
 }
 
+.menu__list {
+    display: flex;
+}
+
 .menu__item {
-    display: inline-block;
-    vertical-align: middle;
+    display: flex;
+    justify-content: space-between;
     margin-right: 54px;
 }
 
@@ -193,12 +197,6 @@ body, html {
     justify-content: space-between;
 }
 
-.hot-tours__title, .hot-tours__icon {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .hot-tours__item-country {
     min-height: 440px;
     vertical-align: top;
@@ -284,6 +282,10 @@ body, html {
     color: #fff;
 }
 
+.promo {
+    margin-bottom: 152px;
+}
+
 .promo__title {
     font-size: 36px;
     font-weight: bold;
@@ -292,8 +294,6 @@ body, html {
 
 .promo__card {
     width: 557px;
-    display: flex;
-    align-items: flex-start;
     position: relative;
     border-radius: 5px;
     overflow: hidden;
@@ -343,7 +343,10 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 152px;
+}
+
+.paginator--theme--red {
+    margin-bottom: 70px;
 }
 
 .paginator--theme--red .paginator__item--active .paginator__link {
@@ -463,8 +466,8 @@ body, html {
 }
 
 .footer-container__section {
-    height: 146px;
-    margin-top: 49px;
+    padding-bottom: 50px;
+    padding-top: 49px;
 }
 
 .social {
@@ -528,7 +531,7 @@ body, html {
 /* services page */
 
 .top-line {
-    min-height: 400px;
+    min-height: 411px;
     display: flex;
     flex-direction: column;
     padding-bottom: 25px;
@@ -589,9 +592,16 @@ body, html {
     margin-bottom: 70px;
 }
 
+.services__item {
+    margin-bottom: 50px;
+}
+
+.services__item:last-child {
+    margin-bottom: 0;
+}
+
 .service {
     display: flex;
-    margin-bottom: 50px;
     text-decoration: none;
 }
 
@@ -602,6 +612,7 @@ body, html {
 
 .services__content {
     flex: 1;
+    padding-top: 10px;
 }
 
 .service__title {
@@ -612,15 +623,16 @@ body, html {
 }
 
 .service__desc {
+    font-size: 16px;
     line-height: 1.7;
-    margin-bottom: 69px;
+    margin-bottom: 45px;
 }
 
 .services__btn {
     background: transparent;
-    max-width: 135px;
+    max-width: 168px;
     border-radius: 35px;
-    padding: 18px 23px;
+    padding: 16px 40px;
     color:#F5170E;
     border: 1px solid #F5170E;
     font-weight: bold;
@@ -632,9 +644,9 @@ body, html {
 
 .btn--active {
     background: #F5170E;
-    max-width: 135px;
+    max-width: 168px;
     border-radius: 35px;
-    padding: 16px 22px;
+    padding: 16px 40px;
     color: #fff;
     font-weight: bold;
     text-transform: uppercase;
@@ -673,7 +685,7 @@ body, html {
     margin-left: 20px;
 }
 
-.partners__item:nth-child(4n + 1) {
+.partners__item:nth-child(4n + 4) {
     margin-left: 0;
 }
 
@@ -683,7 +695,7 @@ body, html {
     width: 270px;
     height: 100px;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     filter: grayscale(100%);
 }
 

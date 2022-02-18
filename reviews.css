@@ -11,7 +11,7 @@
 .review {
     display: inline-flex;
     flex-direction: column;
-    padding: 63px 32px;
+    padding: 55px 30px;
     background: #f4f5f5;
 }
 
@@ -22,7 +22,7 @@
 .review__header {
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .review__user {
@@ -49,7 +49,13 @@
 
 .review__tags {
     display: flex;
+    flex-wrap: wrap;
     align-items: flex-start;
+}
+
+.review__tag-item {
+    margin-right: 7px;
+    margin-bottom: 7px;
 }
 
 .tag {
@@ -85,7 +91,7 @@
 
 .separator {
     background: 
-    url("./img/img3/couple.png") right 24% bottom no-repeat,
+    url("./img/img3/couple.png") right 20% bottom no-repeat,
     url("./img/img3/BG.png") center center / cover no-repeat;
     min-height: 360px;
     display: flex;
@@ -105,6 +111,11 @@
     line-height: 1.1;
 }
 
+.inner-section--bg--grey-rev {
+    background: #F4F5F5;
+    padding: 58px 0;
+}
+
 .form__row {
     display: flex;
     margin-bottom: 30px;  
@@ -114,11 +125,16 @@
     flex: 1;
     margin-right: 30px;
     border-radius: 4px;
-    border: none;
+    border: 1px solid transparent;
     background: #fff;
     padding: 22px 30px;
     font-size: 18px;
     color: #202123;
+}
+
+.form__input:focus {
+    outline: 0;
+    border-color: #F5170E;
 }
 
 .form__input::placeholder {
@@ -182,6 +198,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 14px;
+    transition: background .3s;
 }
 
 .btn--color--red:hover {
@@ -199,6 +216,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 14px;
+    transition: background .3s;
 }
 
 .btn--color--grey:hover {

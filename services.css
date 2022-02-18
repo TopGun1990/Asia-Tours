@@ -51,7 +51,7 @@
 }
 
 .page-content {
-    padding-top: 98px;
+    padding-top: 119px;
     padding-bottom: 90px;
     background: #FFF;
     color: #303030;
@@ -108,7 +108,8 @@
     text-transform: uppercase;
     text-decoration: none;
     display: inline-block;
-    font-size: 14px; 
+    font-size: 14px;
+    transition: color .2s, background .2s; 
 }
 
 .btn--active {
@@ -142,7 +143,7 @@
 .inner-section__title {
     font-size: 48px;
     font-weight: bold;
-    margin-bottom: 59px;
+    margin-bottom: 46px;
 }
 
 .partners {
@@ -171,6 +172,7 @@
     align-items: center;
     justify-content: flex-start;
     filter: grayscale(100%);
+    transition: filter .3s;
 }
 
 .parnters__link:hover {

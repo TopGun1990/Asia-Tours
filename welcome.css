@@ -8,9 +8,8 @@
     align-items: center;
     justify-content: center;
     background: 
-    url("./img/img4/shades.png") center top 37% / cover no-repeat,
+    url("./img/img4/shades.png") center top 42% / 591px no-repeat,
     url("./img/img4/bg.png") center / cover no-repeat;
-    background-size: 591px 248px, 100%;
 }
 
 .central {
@@ -60,4 +59,22 @@
 .hero__subtitle--main {
     font-size: 18px;
     margin-bottom: 52px;
+}
+
+.btn--color--red--wide {
+    background: #F5170E;
+    max-width: 168px;
+    border-radius: 35px;
+    padding: 19px 56px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    transition: background .3s;
+}
+
+.btn--color--red--wide:hover {
+    background: #DA0100;
 }
